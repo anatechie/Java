@@ -1,0 +1,48 @@
+Classes, tipos e objetos:
+Construir estrutura de dados e algoritmos requer que nos comunicamos instruções detalhadas para um computador, e um excelente jeito de comunicação é usando uma linguagem de alto nivel para computador, como Java. 
+Public class Universe{
+  public static void main (String[] args){
+    System.out.println("Hello!");
+Public:
+qualquer um pode executar esse programa
+class:
+todo código Java tem que pertencer a uma classe
+Universe:
+Nome da classe
+{: abre o corpo da classe
+public:
+qualquer um pode executar esse programa
+static:
+Método pertence à classe, não é um objeto
+void:
+esse método não retorna nada
+main:
+o nome do método
+(String[] args):
+parametro passado para o método
+{:
+chave para abrir o corpo do método
+System.out.println:
+Nome do método que queremos chamar
+("Hello!"):
+O parametro passado para esse método
+;: ponto e virguka indicando o fim da instancia
+
+Os principais atores em um programa Java são os objetos. Objetos armazenam dados e provem metodos para acessar e modificar esses dados. Todo objeto é uma instancia de uma classe, o qual define o tipo de objeto, assim como 
+os tipos de operações que performam. Os membros criticos de uma classe em Java são os seguintes:
+(Classes também podem conter definição de classe interna)
+- Dados de um objeto em Java são armazenados em variaveis de instancia(também chamados de campos). Portanto, se um objeto de alguma classe armazenar dados, sua classe deve especificar as variaveis de instancia para tais objetos.
+Variavies de instancia podem vir ded tipos de base( como inteiros, ponto flutuante(float) ou boolean) ou eles podem  se referir a objetos de outras classes. 
+-As operações que pode agir com base em dados, expressando as "mensagens" as quais os objetos respondem, são chamados de metodos, e eles consistem de construtores, procedimentos e funções. Eles definem o comportamento dos objetos
+da classe. 
+
+Como as classes são declaradas:
+Encurtando, um objeto é uma combinação especifica de dados e métodos que podem processar e comunicar esses dados. Classes definem os tipos de objetos; por isso, objetos são as vezes referidos como instancias de suas classes definidas, 
+porque eles levam o nome da classe como seu tipo.
+Ex.:
+public class Counter {
+ protected int count; //a simple integer instance variable
+/**The default constructor for a Counter object*/
+Counter() {count = 0;}
+/** An acessor
+
